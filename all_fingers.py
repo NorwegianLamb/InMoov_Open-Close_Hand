@@ -4,7 +4,7 @@ import time
 #-----------------------------------------------------
 
 GPIO.setmode(GPIO.BOARD)
-pin=[7,11,12,13,15]
+pin=[7,11,12,13,15] # Set the GPIO pin to this one or change them based on how you connected the servos
 n_pin=int(len(pin))
 pwm=[]
 for i in range(len(pin)):
@@ -13,6 +13,8 @@ for i in range(len(pin)):
 	pwm[i].start(0)
 
 scelta=int(input("2 to open, 12 to close, 7 to reset:"))
+
+# should I add a cinematic movement? (opening, closing and resetting?)
 
 #------------------------------------------------------
 
