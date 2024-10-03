@@ -22,4 +22,4 @@ This is an example of running the code, **I volunteerly selected 1 duty-cycle pe
   <video src="https://github.com/user-attachments/assets/9d59aa13-8255-4aba-8b2d-7a78535746e5" />
 </div>
     
-You could spice it up by adding **ECG electrodes** to your forearm and catch the electrical signal fired by your neurons when opening/closing your hand and use that to **control the robotic arm** :
+You could spice it up by adding **ECG electrodes** to your forearm and catch the electrical signal fired by your neurons when opening/closing your hand and use that to **control the robotic arm** :)
